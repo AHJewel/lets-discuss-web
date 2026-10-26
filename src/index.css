@@ -1,0 +1,4 @@
+/* antd's CSS-in-JS sits between Tailwind's reset and its utilities */
+@layer theme, base, antd, components, utilities;
+
+@import 'tailwindcss';
